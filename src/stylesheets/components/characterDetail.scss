@@ -1,0 +1,69 @@
+.card-detail__main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.card-detail {
+  margin: auto;
+  width: 320px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00ffff80;
+  border-radius: 30px;
+  @media all and (min-width: 768px) {
+    height: 400px;
+    width: 500px;
+  }
+  @media all and (min-width: 1024px) {
+    width: 600px;
+  }
+}
+//para la tarjeta detail
+.linkGoBack {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+//para notfound
+.linkBack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.exitIcon {
+  width: 60px;
+}
+.card-detail__title {
+  color: white;
+}
+.card-detail__content {
+  margin: 30px 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.card-detail__img {
+  width: 150px;
+  border-radius: 30px;
+  @media all and (min-width: 768px) {
+    width: 200px;
+  }
+}
+.card-detail__info {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+.card-detail__status {
+  width: 40px;
+}
+.card-detail__item {
+  padding-bottom: 10px;
+}
